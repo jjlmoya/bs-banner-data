@@ -106,7 +106,7 @@ function render_bs_banner_data($attributes)
 
 	return '
 		<section class="og-banner-data 
-						l-flex l-flex--justify-space-around 
+						l-flex l-flex--justify-space-around l-grid-column--full
 						a-bg--gradient--light a-bg--animated a-pad-40 l-flex--wrap
 						a-mi a-mi--left bs_viewport ' . $class . '">
 		' . render_bs_banner_data_entry($counterArray) . '
